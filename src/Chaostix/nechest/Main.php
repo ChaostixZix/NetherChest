@@ -92,22 +92,12 @@ class Main extends PluginBase implements Listener
                 "p-ticks" => 20,
                 "# base-block" => "Block to use for the base",
                 "base-block" => "NETHERRACK",
-            ],
-            "# backend" => "Use YamlMgr or MySqlMgr",
-            "backend" => "YamlMgr",
-            "# MySql" => "MySQL settings.", // Only used if backend is MySqlMgr to configure MySql settings
-            "MySql" => [
-                "host" => "localhost",
-                "user" => "nobody",
-                "password" => "secret",
-                "database" => "netherchestdb",
-                "port" => 3306,
-            ],
+            ]
         ];
         $cf = (new Config($this->getDataFolder() . "config.yml",
             Config::YAML, $defaults))->getAll();
         $backend = __NAMESPACE__ . "\\" . $cf["backend"];
-        $this->dbm = new $backend($this, $cf);
+        $this->dbm = new YamlMgr($this, $cf);
         $this->getLogger()->info(mc::_("Using %1% as backend", $cf["backend"]));
 
         $bl = Item::fromString($cf["settings"]["base-block"]);
