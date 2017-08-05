@@ -1,5 +1,5 @@
 <?php
-namespace aliuly\nechest;
+namespace Chaostix\nechest;
 use pocketmine\scheduler\PluginTask;
 use pocketmine\plugin\PluginBase;
 use pocketmine\tile\Chest;

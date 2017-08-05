@@ -3,7 +3,7 @@
  ** CONFIG:config.yml
  **/
 
-namespace aliuly\nechest;
+namespace Chaostix\nechest;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
@@ -26,7 +26,7 @@ use pocketmine\event\inventory\InventoryOpenEvent;
 use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\event\block\BlockPlaceEvent;
 
-use aliuly\nechest\mc;
+use Chaostix\nechest\mc;
 
 // OPEN
 //- PlayerInteractEvent;

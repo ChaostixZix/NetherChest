@@ -1,6 +1,6 @@
 <?php
 
-namespace aliuly\nechest;
+namespace Chaostix\nechest;
 use pocketmine\plugin\Plugin;
 
 abstract class mc

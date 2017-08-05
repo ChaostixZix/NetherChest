@@ -1,6 +1,6 @@
 <?php
 
-namespace aliuly\nechest;
+namespace Chaostix\nechest;
 
 use pocketmine\item\enchantment\Enchantment;
 use pocketmine\plugin\PluginBase;
