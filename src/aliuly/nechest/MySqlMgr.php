@@ -4,7 +4,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
 use pocketmine\inventory\Inventory;
 use pocketmine\item\Item;
-use aliuly\nechest\common\PluginCallbackTask;
+use aliuly\nechest\PluginCallbackTask;
 
 
 class MySqlMgr implements DatabaseManager {

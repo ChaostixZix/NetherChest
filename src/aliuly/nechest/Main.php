@@ -26,7 +26,7 @@ use pocketmine\event\inventory\InventoryOpenEvent;
 use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\event\block\BlockPlaceEvent;
 
-use aliuly\nechest\common\mc;
+use aliuly\nechest\mc;
 
 // OPEN
 //- PlayerInteractEvent;
