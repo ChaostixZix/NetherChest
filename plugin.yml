@@ -1,5 +1,5 @@
 main: aliuly\nechest\Main
-api: 1.12.0
+api: 3.0.0-ALPHA5
 load: POSTWORLD
 
 name: NetherChest
