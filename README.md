@@ -1,4 +1,4 @@
-# NetherChests
+# NetherChest
 ORIGGINALLY CREATED BY ALEJANDROU
 * Summary: An Ender Chest type plugin
 * Dependency Plugins: N/A
