@@ -24,7 +24,8 @@ The following sections are defined:
 
 # Changes
 
-* Save Enchancements And Custom Name On Yaml Database Manager
+* 1.1.2: feauture update
+  - Save Enchancements And Custom Name On Yaml Database Manager
 * 1.1.1: Bug fix
   - Fixed item duplication cheat/bug (Reported by @predawnia)
 * 1.1.0 : flexibility
