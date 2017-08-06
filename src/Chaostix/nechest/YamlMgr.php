@@ -57,7 +57,6 @@ class YamlMgr implements DatabaseManager
                     $id = $enc->getId();
                     $level = $enc->getLevel();
                     $enc = implode([(string)$id, (string)$level], ":");
-                    var_dump($enc);
                     array_push($ench, $enc);
                 }
             }
