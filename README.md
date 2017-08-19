@@ -24,6 +24,8 @@ The following sections are defined:
 
 # Changes
 
+* 1.1.3: optimize
+  - Optimised plugin.yml to work properly on GenisysPro on command '/mp NetherChest'
 * 1.1.2: feauture update
   - Save Enchancements And Custom Name On Yaml Database Manager
 * 1.1.1: Bug fix
