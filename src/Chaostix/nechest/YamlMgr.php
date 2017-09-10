@@ -22,7 +22,6 @@ class YamlMgr implements DatabaseManager
 
     protected function getDataFolder()
     {
-        var_dump("A");
         return $this->owner->getDataFolder();
     }
 
