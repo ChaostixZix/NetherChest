@@ -23,7 +23,7 @@ The following sections are defined:
 
 
 # Changes
-* 1.1.3: optimize
+* 1.1.4: optimize
   - removed 'var_dump("A");' from code cause it was anoying in console!
 * 1.1.3: optimize
   - Optimised plugin.yml to work properly on GenisysPro on command '/mp NetherChest'
